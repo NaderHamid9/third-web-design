@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+:root {
+  --primary-color: #001220;
+  --secondary-color: #fa7268;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Poppins";
+  margin: 0px;
+}
+
+.navbar .nav-container a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 24px;
+}
+
+.navbar .nav-container nav {
+  display: block;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+}
+
+.navbar .nav-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.hero .hero-container {
+  background: none;
+}
+
+.hero .hero-container .logo {
+  width: 746.06px;
+  height: 382.95px;
+  margin-left: 587px;
+  margin-top: 80px;
+}
+
+.hero .hero-container .waves {
+  height: 418.84px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin: 0;
+}
+
+.products {
+  margin-top: 0px;
+}
+
+.products .products-container {
+  background-color: var(--secondary-color);
+  background-image: url(/images/blob.svg);
+  background-repeat: no-repeat;
+  background-size: 1052px 1016.2px;
+  background-position: center;
+  padding-left: 300px;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products .products-container ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  row-gap: 80px;
+  -webkit-column-gap: 75px;
+          column-gap: 75px;
+  list-style: none;
+}
+
+.products .products-container ul li {
+  border-radius: 0px 50px 0px 50px;
+  background-color: var(--primary-color);
+  background-image: url(/images/product.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 288px 288px;
+  width: 278px;
+  height: 369px;
+}
+
+.products .products-container ul li p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 300px;
+}
+/*# sourceMappingURL=main.css.map */
